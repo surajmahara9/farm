@@ -87,6 +87,7 @@ display:none !important;
   height: 40px;
   background: red;
   padding: 5px 8px;
+  display: none !important;
 }
 
 .close{
