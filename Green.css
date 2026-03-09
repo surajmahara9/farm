@@ -169,14 +169,17 @@ margin-bottom:30px;
 width:200px;
 height:50px;
 background:#0fa44a;
-color:white;
 border:none;
 border-radius:30px;
 cursor:pointer;
-font-family:Arial, sans-serif;
-font-size: 17px;
-}
 
+}
+a{
+  text-decoration: none;
+  font-family:Arial, sans-serif;
+font-size: 17px;
+color:white;
+}
 .culti-pic{
 width:100%;
 max-width:500px;
