@@ -120,6 +120,9 @@ left:3%;
   font-size: 21px;
   left:22%;
 }
+.list-item{
+  padding-top: 5px;
+}
 .list-link{
 color:white;
 }
@@ -136,7 +139,6 @@ display:block !important;
 display:block !important;
 }
 
-}
 
 
 #cultivate-section{
