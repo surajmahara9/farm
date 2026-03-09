@@ -82,12 +82,11 @@ display:none !important;
 }
 
 .close-box{
-  display: none;
   width:40px;
   height: 40px;
   background: red;
   padding: 5px 8px;
-  display: none !important;
+  display:none !important;
 }
 
 .close{
@@ -116,13 +115,13 @@ height:50px;
 border-radius:5px;
 left:3%;
 }
-}
+
 .farm-name{
   font-size: 21px;
   left:22%;
 }
 .list-item{
-  padding-top: 5px;
+  margin-top:10px ;
 }
 .list-link{
 color:white;
@@ -140,7 +139,7 @@ display:block !important;
 display:block !important;
 }
 
-
+}
 
 #cultivate-section{
 width:90%;
@@ -515,7 +514,6 @@ margin-bottom:18px;
 
 .info-item i{
 font-size:25px;
-font-family:Arial, sans-serif;
 }
 
 .info-item p{
@@ -630,4 +628,14 @@ flex-direction:column;
 width:100%;
 }
 
+}.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
