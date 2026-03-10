@@ -50,3 +50,16 @@ function closeMenu(){
   // Event listeners
   productSelect.addEventListener('change', updatePrice);
   qtySelect.addEventListener('change', updatePrice);
+
+document.getElementById("order-form").addEventListener("submit", function(e){
+    
+    e.preventDefault(); // page reload rokta hai
+    
+    document.getElementById("success-popup").style.display = "flex";
+
+});
+
+function closePopup() {
+  document.getElementById("success-popup").style.display = "none";
+  document.getElementById("order-form").reset();
+} 

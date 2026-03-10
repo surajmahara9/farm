@@ -222,54 +222,66 @@
         </div>
     </section>
 
-    <!-- Online Order Form -->
     <section id="form-box">
-        <h1 class="section-title">Online Order</h1>
-        <div class="form-container">
-            <label>Customer Name</label>
-            <input type="text" name="customer-name" class="input-text" placeholder="Your full name" required>
+<h1 class="section-title">Online Order</h1>
 
-            <label>Mobile Number</label>
-            <input type="number" class="input-text" placeholder="Your Phone number" required>
+<form id="order-form" class="form-container">
 
-            <label>Address</label>
-            <textarea class="input-text" rows="8" placeholder="Your Location" required></textarea>
+<label>Customer Name</label>
+<input type="text" name="customer-name" class="input-text" placeholder="Your full name" required>
 
-            <label>Product</label>
-            <select class="input-select">
-                <option value="">Select Products</option>
-                <option value="Organic Apples">Organic Apples</option>
-                <option value="Organic Oranges">Organic Oranges</option>
-                <option value="Sweets Carrots">Sweets Carrots</option>
-                <option value="Sweets Radish">Sweets Radish</option>
-                <option value="Fresh Brinjal">Fresh Brinjal</option>
-                <option value="Fresh Pumpkin">Fresh Pumpkin</option>
-                <option value="Fresh Cauliflower">Fresh Cauliflower</option>
-                <option value="Fresh Capsicum">Fresh Capsicum</option>
-                <option value="Green Chilli">Green Chilli</option>
-                <option value="Crisp Lettuce">Crisp Lettuce</option>
-            </select>
+<label>Mobile Number</label>
+<input type="number" class="input-text" placeholder="Your Phone number" required>
 
-            <label>Quantity</label>
-            <select class="input-select">
-                <option value="">Select Qty</option>
-                  <option value="50 Gm">50 Gm</option>
-                  <option value="100 Gm">100 Gm</option>
-                <option value="250 Gm">250 Gm</option>
-                <option value="500 Gm">500 Gm</option>
-                <option value="1 Kg">1 Kg</option>
-                <option value="1.5 Kg">1.5 Kg</option>
-                <option value="2 Kg">2 Kg</option>
-                <option value="3 Kg">3 Kg</option>
-                <option value="4 Kg">4 Kg</option>
-                <option value="5 Kg">5 Kg</option>
-            </select>
+<label>Address</label>
+<textarea class="input-text" rows="8" placeholder="Your Location" required></textarea>
 
-            <label>Price</label>
-            <input type="text" class="input-text" readonly>
-            <button class="btn-submit">Book Now</button>
-        </div>
-    </section>
+<label>Product</label>
+<select class="input-select" required>
+<option value="">Select Products</option>
+<option>Organic Apples</option>
+<option>Organic Oranges</option>
+<option>Sweets Carrots</option>
+<option>Sweets Radish</option>
+<option>Fresh Brinjal</option>
+<option>Fresh Pumpkin</option>
+<option>Fresh Cauliflower</option>
+<option>Fresh Capsicum</option>
+<option>Green Chilli</option>
+<option>Crisp Lettuce</option>
+</select>
+
+<label>Quantity</label>
+<select class="input-select" required>
+<option value="">Select Qty</option>
+<option>50 Gm</option>
+<option>100 Gm</option>
+<option>250 Gm</option>
+<option>500 Gm</option>
+<option>1 Kg</option>
+<option>1.5 Kg</option>
+<option>2 Kg</option>
+<option>3 Kg</option>
+<option>4 Kg</option>
+<option>5 Kg</option>
+</select>
+
+<label>Price</label>
+<input type="text" class="input-text" readonly>
+
+<button type="submit" class="btn-submit">Book Now</button>
+
+</form>
+</section>
+
+
+<div id="success-popup" class="popup">
+<div class="popup-content">
+<h2>Order Submitted Successfully!</h2>
+<p>Thank you for ordering from SilentGreen Farm. Our delivery man will deliver your product and contact you soon.</p>
+<button onclick="closePopup()">OK</button>
+</div>
+</div>
 
     <!-- News Section -->
     <section id="news">
